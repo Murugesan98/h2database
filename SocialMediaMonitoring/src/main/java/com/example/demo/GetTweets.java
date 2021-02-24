@@ -18,10 +18,8 @@ public class GetTweets
 	   {
 		   ConfigurationBuilder cb = new ConfigurationBuilder();
 		   cb.setDebugEnabled(true)
-		   .setOAuthConsumerKey("wadldYLHBG8UsJZLpa31UwAZo")
-		   .setOAuthConsumerSecret("KOzAq53VF8bQ34OkRzDz3YhytnveQurpz4UCESgjddU6CN94sT")
-		   .setOAuthAccessToken("732546452187021312-3nmkB9Uzryqyl5RyKujyfNPJTF81uVi")
-		   .setOAuthAccessTokenSecret("kIaqRlGdgypDm10DDQegbWYpvb7ZwL2CFSXlxr8OzXJ8s");
+		   .setOAuthAccessToken("nm")
+		   .setOAuthAccessTokenSecret("zXJ8s");
 	 Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 	 try 
 	 {
